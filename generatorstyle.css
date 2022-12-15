@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; /* Use system font stack */
+    background-color: #19164D;
+    background-image: url('https://cdn.discordapp.com/attachments/892735201132834846/1052678071364362321/Generator_Background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: #ffffff;
+    text-align: center;
+}
+
+#heading {
+  text-align: center;
+  padding: 2.4rem;
+  font-size: 2.8rem;
+  color: var(--font);
+} 
+
+#playlist-generator {
+    margin: 20px auto;
+    /*background-color: #3D3D3D;*/
+    padding: 20px;
+}
+
+#playlist-input {
+    font-size: 18px;
+    padding: 10px;
+    width: 40%;
+    border-radius: 2rem;
+    border: 2px solid #000000;
+    color: #7a7979;
+}
+
+#generate-playlist-button {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    width: 20%;
+    margin-top: 10px;
+    border-radius: 2rem;
+    border: 2px solid #000000;
+    background-color: #1a629c;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#generate-playlist-button:hover {
+    background-color: #0099c0;
+}
+
+#playlist {
+    margin: 20px auto;
+    margin-top: 5px;
+    width: 30%;
+    padding: 5px auto;
+    text-align: center; 
+    color: #ffffff;
+}
+
+/* #playlist {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+} */
+
+ #playlist-tracks {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  list-style-type: none;
+} 
+
+#playlist-tracks li {
+  border: 0.5px solid black;
+  padding: 0.5rem;
+  /* margin: 0.5rem; */
+  border-radius: 1rem;
+  text-align: center;
+  color: var(--font);
+  background-color: rgba(0, 0, 0, .25); 
+  /* background-color: var(--dark-blue); */
+  min-width: 30rem;
+  max-width: 80rem;
+}
+

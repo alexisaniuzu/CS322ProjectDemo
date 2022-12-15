@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="generatorstyle.css" />
+</head>
+
+<body>
+  <div id="playlist-generator">
+    <h1>Playlist Generator</h1>
+    <p>Enter the names of the artists you want to include in your playlist, separated by commas:</p>
+    <input type="text" id="playlist-input" />
+    <button id="generate-playlist-button">Generate</button>
+  </div>
+
+  <div class = "content">
+    <a href="index.html"><button type="button"><span></span>HOMEPAGE</button></a>
+    </div>
+
+  <div id="playlist">
+    <h2>Playlist</h2>
+    <ul id="playlist-tracks"></ul>
+
+    <audio id="audio-player" autoplay crossorigin="anonymous">
+      Your browser does not support the audio element.
+    </audio>
+
+    <!-- <audio id="audio-player" autoplay></audio> -->
+
+
+    <!-- <canvas id="audio-visualizer"></canvas> -->
+
+    <!-- <div id="audio-controls">
+      <button id="play-button">Play</button>
+      <button id="stop-button">Stop</button>
+      <button id="skip-button">Skip</button>
+    </div> -->
+  </div>
+
+  <script src="generatorscript.js"></script>
+</body>
+
+</html>
