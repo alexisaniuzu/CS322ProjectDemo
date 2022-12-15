@@ -87,4 +87,32 @@ body {
   min-width: 30rem;
   max-width: 80rem;
 }
+.content{
+  width: 450px;
+  position: absolute;
+  top: 95px;
+  text-align: center;
+  color: #fff;
+}
+
+button{
+  width: 100px;
+  padding: 10px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-family: arial;
+  border: 2px solid #fff;
+  background: #fff;
+  color: #1a629c;
+  cursor: pointer;
+ 
+}
+
+button:hover {
+  border: 2px solid #1a629c;
+  color: #fff;
+  background: #1a629c;
+}
 

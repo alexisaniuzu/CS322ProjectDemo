@@ -7,7 +7,6 @@ body {
     background-attachment: fixed;
   }
   
-  
   #file-input {
     position: fixed;
      top: 10px;
@@ -63,11 +62,40 @@ body {
     background-position: center;
     background-attachment: fixed;
     /* animation: bg 1s infinite linear; */
-    z-index: 2;
+    z-index: 0;
     opacity: 0.3;
   }
   
   @keyframes bg {
     0%{ background-position: 0 0; }
     100%{ background-position: 8px 8px; }
+  }
+
+  .content{
+    width: 1100px;
+    position: absolute;
+    top: 1.5px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  button{
+    width: 100px;
+    padding: 10px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-family: arial;
+    border: 2px solid #fff;
+    background: #fff;
+    color: #1a629c;
+    cursor: pointer;
+   
+  }
+  
+  button:hover {
+    border: 2px solid #1a629c;
+    color: #fff;
+    background: #1a629c;
   }
